@@ -7,6 +7,14 @@ const forecast = require('./utils/forecast')
 const app = express()
 const port = process.env.PORT || 3000
 
+//  Git steps
+//   git status
+//   git add .
+//   git commit -m "description"
+//   git push
+//   git push heroku master
+
+
 // Define paths for Express config
 const publicDirectoryPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templates/views')
